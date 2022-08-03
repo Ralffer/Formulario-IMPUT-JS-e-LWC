@@ -1,0 +1,27 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">Dados Imput para Objeto</h1>
+
+		<!--Campo de nome-->
+		<lightning-input type="text" label="nome" name="nome" onchange={handleInputChange}>
+		</lightning-input><br>
+		<!-- Campo de tel-->
+		<lightning-input type="text" label="telefone" name="fone" onchange={handleInputChange}>
+		</lightning-input><br>
+
+		<!-- Campo de cpf-->
+		<lightning-input type="text" label="cpf" name="cpf" onchange={handleInputChange}>
+		</lightning-input><br>
+
+		<!-- Campo de email-->
+
+		<lightning-input type="text" label="email" name="email" onchange={handleInputChange}>
+		</lightning-input><br>
+
+		<!-- Campo de botao-->
+		<lightning-button variant="brand" label="Salvar" class="slds-m-left_x-small">
+		</lightning-button>
+
+
+	</div>
+</template>

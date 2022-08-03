@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/ralffer.lwc-l6dnsih4",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve rOjPw7VcGH1xejkDxsni --open"
+  }
+}
